@@ -3,12 +3,6 @@ import React from "react";
 export const Header = () => {
   return (
     <header>
-      {/* dark mode toggler */}
-      <label htmlFor="darkMode" className="dark-mode-toggler">
-        <i className="fa-solid fa-circle-half-stroke"></i>
-      </label>
-
-      <input type="checkbox" id="darkMode" />
       <div className="header container flex">
         <div className="logo flex">
           <div className="joti-one-regular">Bikash</div>

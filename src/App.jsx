@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
+import { DarkMode } from "./Components/DarkMode.jsx";
 import { Header } from "./Components/Header.jsx";
 import { HeroSection } from "./Components/HeroSection.jsx";
-import { Banner } from "./Components/Banner.jsx";
 import { Skills } from "./Components/Skills.jsx";
 import { Recent } from "./Components/Recent.jsx";
 import { AboutMe } from "./Components/AboutMe.jsx";
@@ -11,16 +11,18 @@ import { Footer } from "./Components/Footer.jsx";
 
 function App() {
   return (
-    <div className="wrapper">
-      <Header />
-      <HeroSection />
-      <Banner />
-      <Skills />
-      <Recent />
-      <AboutMe />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <DarkMode />
+      <div className="wrapper">
+        <Header />
+        <HeroSection />
+        <Skills />
+        <Recent />
+        <AboutMe />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 }
 
