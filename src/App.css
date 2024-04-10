@@ -39,7 +39,7 @@ a {
   --border-color: var(--color-dark);
 
   /* for dark mode */
-  --dark-body-bg: var(--border-color);
+  --dark-body-bg: var(--color-dark);
   --dark-text-color: white;
   --dark-border-color: white;
 

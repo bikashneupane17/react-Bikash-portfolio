@@ -1,7 +1,7 @@
 import React from "react";
 import image2 from "../assets/image2.png";
 
-export const Recent = () => {
+export const Projects = () => {
   return (
     <section className="projects container" id="projects">
       <h2 className="title">

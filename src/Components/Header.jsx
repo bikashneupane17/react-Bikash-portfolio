@@ -1,14 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <header>
-      {/* dark mode toggler */}
-      <label htmlFor="darkMode" className="dark-mode-toggler">
-        <i className="fa-solid fa-circle-half-stroke"></i>
-      </label>
-
-      <input type="checkbox" id="darkMode" />
       <div className="header container flex">
         <div className="logo flex">
           <div className="joti-one-regular">Bikash</div>
@@ -23,19 +18,19 @@ export const Header = () => {
         <div className="menu">
           <ul className="navigation flex">
             <li>
-              <a href="#home">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <Link to="/skills">Skills</Link>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="#about">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
